@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1号店主页</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./yinyong/swiper-bundle.min.css">
+</head>
+<body>
+    
+<!-- 顶部部分 -->
+<div class="box">
+    <ul class=" page">
+    <li>送货至：四川</li>
+    <li>你好!请<a href="./register.html">注册</a></li>
+    <li><a href="./register.html">免费注册</a> |</li>
+    <li><a href="">我的订单</a> |</li>
+    <li><a href="">收藏夹</a></li>
+    <li><a href="">客户服务</a>
+        <ul class="page1">
+       <li>包裹跟踪</li>
+       <li>常见问题</li>
+       <li>在线退款</li>
+       <li>在线投诉</li>
+       <li>配送范围</li>
+    </ul></li>
+    <li><a href="">网站导航<img src="./images/t_arrow.gif" alt=""></a></li>
+    <li>| 关注我们：</li>
+    <li><img src="./images/l_2_h.png" alt=""></li>
+    <li><img src="./images/sh2.png" alt=""></li>
+    <li><a href="">手机版</a></li>
+    <li><img src="./images/s_tel.png" alt=""></li> 
+   </ul>
+   </div>
+    <!-- 第二部分 -->
+    <!-- 右边 -->
+   <div class="two">
+    <a href="./classify.html"><img src="./images/logo.png" alt=""></a>
+    <!-- 中间 -->
+    <div class="two-center">
+    <input type="text" placeholder="请输入关键字" id=""> 
+     <ul class="wate">
+    <li><a href="">咖啡</a></li>
+    <li> <a href="">iphone 6S </a></li>
+    <li> <a href="">新鲜美食</a></li>
+    <li> <a href="">蛋糕</a></li>
+    <li> <a href="">日用品</a></li>
+    <li><a href="">连衣裙</a></li>
+    </ul>
+   </div> 
+   <div class="two-center1"> 
+    <input type="text" value="搜索">
+   </div>
+    <div class="shopping ">
+        <input type="text" value="购物车">
+    </div>
+   </div>
+   <!-- 购物车悬浮后出现的效果 -->
+   <div class="shoppingcartbehind">
+     <p>你的购物车为空</p>
+    <img src="./images/icon_tips2.png" alt="">
+   </div>
+   <div class="shoppingcart">
+    <!-- 第一 -->
+    <!-- 第一个最上面的 -->
+    <div class="shoppingcart1">
+        <div class="shoppingcart1-1" ><p>
+       1号店满199减100 <span>共<span id="ball">1</span>件商品</span></p>
+        </div>
+        <!-- 中间的 -->
+        <div class="shoppingcart1-2">
+            <div class="shoppingcart1-1-img">
+             <img src="./images/shop1.png" alt="">
+            </div>
+            <ul class="treasure">
+                <li>宝贝许愿坊 童装女装套装 <button onclick="close()" id="close"> <img src="./images/a_close.png" alt=""></button></li>
+                <li>深蓝 140码 </li>
+                <li><button onclick="fn()" id="jian1">-</button><span id="yi">1</span><button onclick="fnn()" id="jia1">+</button> <span id="money1">190</span></li>
+                <!-- <li>参加一项促销，节约成本￥100</li> -->
+            </ul>
+        </div>
+      <div class="shoppingcart1-end">
+        <p>参加一项促销，节约成本￥100</p>
+      </div>
+    </div>
+  
+    <!-- 第二 -->
+    <div class="shoppingcart2">
+        <div class="shoppingcart2-1">
+            <p>1号店 <span>共<span id="ball2">1</span>件商品</span></p>
+        </div>
+        <div class="shoppingcart1-2">
+            <div class="shoppingcart1-1-img">
+             <img src="./images/shop2.png" alt="">
+            </div>
+            <ul class="treasure">
+                <li>亨氏 乐维滋清乐2+2果汁 <button onclick="close2()" id="close2"> <img src="./images/a_close.png" alt=""></button></li>
+                <li>草莓山楂枸杞 </li>
+                <li><button onclick="fu()" id="jian2">-</button><span id="yi1">1</span><button onclick="fuu()" id="jia2">+</button> <span id="money2">5</span></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 第三 -->
+    <div class="shoppingcart3">
+        <div class="shoppingcart2-1">
+            <p>珠韵首饰旗舰店  <span>共<span id="ball3">1</span>件商品</span></p>
+        </div>
+        <div class="shoppingcart1-2">
+            <div class="shoppingcart1-1-img">
+             <img src="./images/shop3.png" alt="">
+            </div>
+            <ul class="treasure">
+                <li>珠韵首饰 大粒径 9.55mm<button onclick="close()" id="close3"> <img src="./images/a_close.png" alt=""></button></li>
+                <li>淡水白色近圆珍珠 </li>
+                <li><button onclick="fm()" id="jian3">-</button><span id="yi2">1</span><button onclick="fmm()" id="jia3">+</button> <span id="money3">758</span></li>
+                <!-- <li>参加一项促销，节约成本￥100</li> -->
+            </ul>
+        </div>
+        <div class="shoppingcart1-end">
+            <p>全场包邮</p>
+          </div>
+    </div>
+    <!-- 第四 -->
+    <div class="shoppingcart4">
+       <p>意见反馈</p>
+       <div class="shoppingcart4-end">
+        <button onclick="enb()" id="">合计
+         <span id="money4">953</span>
+        </button> 
+        <button onclick="end1()" id="end1">
+            立即结算 <span id="ball4">3</span>
+        </button>
+       </div>
+    </div>
+   </div>
+   <!-- 搜索框下第一部分 -->
+   <div class="classify">
+    <!-- 左边 -->
+    <!-- js效果 -->
+    <div class="slideshow">
+        <div class="slideshow1" id="slideshow1"> 
+        <ul>
+        <li class="slide">零食/ 糖果 / 巧克力1
+        </li>
+        <li>坚果|蜜饯|红枣|牛肉干|巧克力|</li>
+        <li> 口香糖|海苔|鱼干|蜜饯|红枣| 蜜</li>
+        <li>饯|红枣|牛肉干|蜜饯|</li>
+    </ul>
+    <br>
+    <ul>
+        <li class="slide">零食/ 糖果 / 巧克力
+        </li>
+        <li>坚果|蜜饯|红枣|牛肉干|巧克力|</li>
+        <li> 口香糖|海苔|鱼干|蜜饯|红枣| 蜜</li>
+        <li>饯|红枣|牛肉干|蜜饯|</li>
+    </ul>
+    <br>
+    <ul>
+        <li class="slide">零食/ 糖果 / 巧克力
+        </li>
+        <li>坚果|蜜饯|红枣|牛肉干|巧克力|</li>
+        <li> 口香糖|海苔|鱼干|蜜饯|红枣| 蜜</li>
+        <li>饯|红枣|牛肉干|蜜饯|</li>
+    </ul>
+    <ul>
+        <li class="slide">零食/ 糖果 / 巧克力
+        </li>
+        <li>坚果|蜜饯|红枣|牛肉干|巧克力|</li>
+        <li> 口香糖|海苔|鱼干|蜜饯|红枣| 蜜</li>
+        <li>饯|红枣|牛肉干|蜜饯|</li>
+    </ul>
+    <ul>
+        <li class="slide">零食/ 糖果 / 巧克力
+        </li>
+        <li>坚果|蜜饯|红枣|牛肉干|巧克力|</li>
+        <li> 口香糖|海苔|鱼干|蜜饯|红枣| 蜜</li>
+        <li>饯|红枣|牛肉干|蜜饯|</li>
+    </ul>
+    <ul>
+        <li class="slide">零食/ 糖果 / 巧克力
+        </li>
+        <li>坚果|蜜饯|红枣|牛肉干|巧克力|</li>
+        <li> 口香糖|海苔|鱼干|蜜饯|红枣| 蜜</li>
+        <li>饯|红枣|牛肉干|蜜饯|</li>
+    </ul>
+    <img src="./images/n_img1.jpg"
+         alt="">
+         <img src="./images/n_img2.jpg"
+         alt="">
+</div>
+   </div>
+   <!--  -->
+   <div class="slideshow">
+    <div class="slideshow1"> <ul>
+    <li class="slide">零食/ 糖果 / 巧克力2
+    </li>
+    <li>坚果|蜜饯|红枣|牛肉干|巧克力|</li>
+    <li> 口香糖|海苔|鱼干|蜜饯|红枣| 蜜</li>
+    <li>饯|红枣|牛肉干|蜜饯|</li>
+</ul>
+
+<img src="./images/n_img1.jpg"
+     alt="">
+     <img src="./images/n_img2.jpg"
+     alt="">
+</div>
+</div>
+ <!--  -->
+ <div class="slideshow">
+    <div class="slideshow1"> <ul>
+    <li class="slide">零食/ 糖果 / 巧克力3
+    </li>
+    <li>坚果|蜜饯|红枣|牛肉干|巧克力|</li>
+    <li> 口香糖|海苔|鱼干|蜜饯|红枣| 蜜</li>
+    <li>饯|红枣|牛肉干|蜜饯|</li>
+</ul>
+
+<img src="./images/n_img1.jpg"
+     alt="">
+     <img src="./images/n_img2.jpg"
+     alt="">
+</div>
+</div>
+ <!--  -->
+ <div class="slideshow">
+    <div class="slideshow1"> <ul>
+    <li class="slide">零食/ 糖果 / 巧克力4
+    </li>
+    <li>坚果|蜜饯|红枣|牛肉干|巧克力|</li>
+    <li> 口香糖|海苔|鱼干|蜜饯|红枣| 蜜</li>
+    <li>饯|红枣|牛肉干|蜜饯|</li>
+</ul>
+
+<img src="./images/n_img1.jpg"
+     alt="">
+     <img src="./images/n_img2.jpg"
+     alt="">
+</div>
+</div>
+ <!--  -->
+ <div class="slideshow">
+    <div class="slideshow1"> <ul>
+    <li class="slide">零食/ 糖果 / 巧克力5
+    </li>
+    <li>坚果|蜜饯|红枣|牛肉干|巧克力|</li>
+    <li> 口香糖|海苔|鱼干|蜜饯|红枣| 蜜</li>
+    <li>饯|红枣|牛肉干|蜜饯|</li>
+</ul>
+
+<img src="./images/n_img1.jpg"
+     alt="">
+     <img src="./images/n_img2.jpg"
+     alt="">
+</div>
+</div>
+ <!--  -->
+ <div class="slideshow">
+    <div class="slideshow1"> <ul>
+    <li class="slide">零食/ 糖果 / 巧克力6
+    </li>
+    <li>坚果|蜜饯|红枣|牛肉干|巧克力|</li>
+    <li> 口香糖|海苔|鱼干|蜜饯|红枣| 蜜</li>
+    <li>饯|红枣|牛肉干|蜜饯|</li>
+</ul>
+
+<img src="./images/n_img1.jpg"
+     alt="">
+     <img src="./images/n_img2.jpg"
+     alt="">
+</div>
+</div>
+ <!--  -->
+ <div class="slideshow">
+    <div class="slideshow1"> <ul>
+    <li class="slide">零食/ 糖果 / 巧克力7
+    </li>
+    <li>坚果|蜜饯|红枣|牛肉干|巧克力|</li>
+    <li> 口香糖|海苔|鱼干|蜜饯|红枣| 蜜</li>
+    <li>饯|红枣|牛肉干|蜜饯|</li>
+</ul>
+
+<img src="./images/n_img1.jpg"
+     alt="">
+     <img src="./images/n_img2.jpg"
+     alt="">
+</div>
+</div>
+ <!--  -->
+ <div class="slideshow">
+    <div class="slideshow1"> <ul>
+    <li class="slide">零食/ 糖果 / 巧克力8
+    </li>
+    <li>坚果|蜜饯|红枣|牛肉干|巧克力|</li>
+    <li> 口香糖|海苔|鱼干|蜜饯|红枣| 蜜</li>
+    <li>饯|红枣|牛肉干|蜜饯|</li>
+</ul>
+
+<img src="./images/n_img1.jpg"
+     alt="">
+     <img src="./images/n_img2.jpg"
+     alt="">
+</div>
+</div>
+ <!--  -->
+   <div class="slideshow">
+    <div class="slideshow1"> <ul>
+    <li class="slide">零食/ 糖果 / 巧克力9
+    </li>
+    <li>坚果|蜜饯|红枣|牛肉干|巧克力|</li>
+    <li> 口香糖|海苔|鱼干|蜜饯|红枣| 蜜</li>
+    <li>饯|红枣|牛肉干|蜜饯|</li>
+</ul>
+
+<img src="./images/n_img1.jpg"
+     alt="">
+     <img src="./images/n_img2.jpg"
+     alt="">
+</div>
+</div>
+ <!--  -->
+ <div class="slideshow">
+    <div class="slideshow1"> <ul>
+    <li class="slide">零食/ 糖果 / 巧克力10
+    </li>
+    <li>坚果|蜜饯|红枣|牛肉干|巧克力|</li>
+    <li> 口香糖|海苔|鱼干|蜜饯|红枣| 蜜</li>
+    <li>饯|红枣|牛肉干|蜜饯|</li>
+</ul>
+
+<img src="./images/n_img1.jpg"
+     alt="">
+     <img src="./images/n_img2.jpg"
+     alt="">
+</div>
+</div>
+<!--  -->
+
+<!--  -->
+    <div class="classify-left">
+    <ul class="nav">
+        <li> 全部商品分类</li>
+        <li id="li1">进口食品，海鲜 <img src="././images/n_arrow.gif" alt=""></li> 
+        <li>食品，饮料，酒 <img src="././images/n_arrow.gif" alt=""></li>
+        <li >母婴、玩具、童装 <img src="././images/n_arrow.gif" alt=""></li>
+        <li>家居、家庭清洁、纸品 <img src="././images/n_arrow.gif" alt=""></li>
+        <li>美妆、个人护理、洗护 <img src="././images/n_arrow.gif" alt=""></li>
+        <li>女装、内衣、中老年 <img src="././images/n_arrow.gif" alt=""></li>
+        <li>鞋靴、箱包、腕表配饰 <img src="././images/n_arrow.gif" alt=""></li>
+        <li>男装、运动 <img src="././images/n_arrow.gif" alt=""></li>
+        <li>手机、小家电、电脑 <img src="././images/n_arrow.gif" alt=""></li>
+        <li>礼品，充值 <img src="././images/n_arrow.gif" alt=""></li>
+    </ul>    
+    </div>
+    <!-- 中间部分 -->
+ <div class="classify-center">
+    <!-- 上面部分 -->
+<ul class="classify-center1">
+ <li>首页</li>
+ <li>自营超市</li>
+ <li>1号店</li>
+ <li>1号超市</li>
+ <li>女装</li>
+ <li>美妆</li>
+ <li>1号海购</li>
+ <li>团购</li>
+  </ul>
+  <div class="swiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="./images/ban1.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="./images/ban1.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="./images/ban1.jpg" alt=""></div>
+    </div>
+    <!-- 如果需要分页器 -->
+     <div class="swiper-pagination"></div> 
+</div>
+
+
+    </div>
+    <!-- 右边部分 -->
+    <div class="classify-right">
+     <p>手机下单惊喜!</p>
+     <!-- 下一部分 -->
+     <div class="classify-right1">
+        <!-- 可视表部分 -->
+        <div class="box2">
+            <ul class="top">
+                <li>快讯</li>
+                <li>更多 ></li>
+            </ul>
+        </div>
+    <div class="scrollBox">
+ <ul class="scrollList">
+<li><span>[公告]</span>家电低至五折</li>
+<li><span>[特惠]</span>掬一轮明月 表无尽惦念</li>
+<li><span>[特惠]</span>好奇金装成长裤新品上市</li>
+<li><span>[公告]</span>大牌闪购 · 抢！</li>
+<li><span>[公告]</span>发福利 买车就抢千元油卡</li>
+ </ul>
+     </div>
+     </div>
+     <div class="classify-right3">
+        <p>1号钱包</p>
+        <p>收益日结，收益赚High！</p>
+        <img src="./images/oneAD.jpg" alt="">
+    </div>
+
+    </div>
+    <!-- 第三部分 -->
+   </div>
+
+   <!-- 上面要用js -->
+   <!-- 主页面布局第三部分 -->
+  <ul class="cosmetics">
+    <li><img src="./images/l_img.jpg" alt=""><p>￥53.00
+        <span>16R</span>
+    </p></li>
+    <!--  -->
+    <li><img src="./images/hot.png" alt=""><img src="./images/b_left.png" alt=""><img src="./images/hot1.jpg" alt="">
+        <p>德国进口</p>
+        <p>德亚全脂纯牛奶200ml*48盒</p>
+        <p>￥189 <span>26R</span></p>
+    </li>
+    <li><img src="./images/hot.png" alt=""><img src="./images/hot2.jpg" alt="">
+        <p>inphons6s</p>
+        <p>Apple/苹果 iPhone 6s Plus公开版</p>
+        <p>￥5288 <span>25R</span></p></li>
+    <li><img src="./images/hot.png" alt=""><img src="./images/hot3.jpg" alt="">
+        <p>特惠组合套装</p>
+        <p>倩碧补水组合套装8折促销</p>
+        <p>￥368 <span>18R</span></p>
+    </li>
+    <li><img src="./images/hot.png" alt=""><img src="./images/hot4.jpg" alt=""><img src="./images/b_right.png" alt="">
+        <p>德国进口</p>
+        <p>750ml*4瓶装组合 西班牙原装进口</p>
+        <p>￥280 <span>26R</span></p>
+    </li>
+  </ul>
+  <!-- 单个图片的那一部分 -->
+ <div class="mban_">
+    <img src="./images/mban_2.jpg" alt="">
+ </div>
+ <!-- 生鲜进口部分 -->
+    <ul class="fresh-top">
+     <li>1F</li>
+     <li>进口.生鲜 </li>
+     <li> <a href="#">进口咖啡</a></li>
+     <li><a href="#">进口酒 </a></li>
+     <li><a href="#">进口母婴</a></li>
+     <li><a href="#">新鲜蔬菜 </a></li>
+     <li><a href="#">新鲜水果</a></li>
+    </ul>
+    <!-- 最大部分 -->
+    <div class="fresh">
+        <!-- 左边部分 -->
+     <div class="fresh-left">
+      <ul class="fresh-left1">
+        <li>
+        <img src="./images/fre_r.jpg" alt="">
+       <img src="./images/b_left.png" alt="">
+       <img src="./images/b_right.png" alt="">
+        </li>
+      </ul>
+      <ul class="fresh-left2">
+        <li>进口水果</li>
+        <li>奇异果</li>
+        <li>西柚</li>
+      </ul>
+      <ul class="fresh-left3">
+        <li>海鲜水产</li>
+        <li>品质牛肉</li>
+      </ul>
+      <ul class="fresh-left4">
+        <li>奶粉</li>
+        <li>鲜活禽蛋</li>
+        <li>进口酒</li>
+      </ul>
+      <ul class="fresh-left5">
+        <li>进口奶粉</li>
+        <li>鲜活禽蛋</li>
+      </ul>
+     </div>
+     <!-- 中间部分 -->
+     <div class="fresh-center">
+        <ul class="fresh-center1">
+            <li>
+                <p>贝思客 草莓先生&蓝莓小姐</p>
+                <p>￥98.00</p>
+               <img src="./images/fre_1.jpg" alt="">
+               <p>新鲜美味 进口美食</p>
+               <p>￥84.00</p>
+            </li>
+            <li>
+                <p>微笑果园SMILE 智利进口绿奇异果</p>
+                <p>￥98.00</p>
+               <img src="./images/fre_2.jpg" alt="">
+               <p>新鲜美味 纯牛奶</p>
+               <p>￥142.00</p> 
+            </li>
+            <li>
+                <p>新鲜美味 进口美食</p>
+                <p>￥98.00</p>
+               <img src="./images/fre_3.jpg" alt="">
+               <p>莫斯利安</p>
+               <p>￥62.00</p> 
+            </li>
+        </ul>
+        <ul class="fresh-center2">
+            <li><img src="./images/fre_4.jpg" alt=""></li>
+            <li><img src="./images/fre_5.jpg" alt=""></li>
+            <li><img src="./images/fre_6.jpg" alt=""></li>
+        </ul>
+     </div>
+     <!-- 右边部分 -->
+     <div class="fresh-right">
+        <ul class="fresh-right1">
+            <li><img src="./images/fre_b1.jpg" alt=""></li>
+            <li><img src="./images/fre_b2.jpg" alt=""></li>
+        </ul>
+     </div>
+    </div>
+ <!-- 2f部分 -->
+ <ul class="fresh-top">
+    <li>2F</li>
+    <li>个人美妆 </li>
+    <li> <a href="#">洗发护发 </a></li>
+    <li><a href="#"> 面膜 </a></li>
+    <li><a href="#">洗面奶</a></li>
+    <li><a href="#">香水 </a></li>
+    <li><a href="#">沐浴露</a></li>
+   </ul>
+    <!-- 最大部分 -->
+    <div class="fresh">
+        <!-- 左边部分 -->
+     <div class="fresh-left-">
+      <ul class="fresh-left1-">
+        <li>
+        <img src="./images/make_r.jpg" alt="">
+       <img src="./images/b_left.png" alt="">
+       <img src="./images/b_right.png" alt="">
+        </li>
+      </ul>
+      <ul class="fresh-left2-">
+        <li>洗发护发</li>
+        <li>牙膏</li>
+      </ul>
+      <ul class="fresh-left3-">
+        <li>面膜</li>
+        <li>补水面膜</li>
+        <li>香水</li>
+      </ul>
+      <ul class="fresh-left4-">
+        <li>面霜</li>
+        <li>脱毛膏</li>
+        <li>洗面奶</li>
+      </ul>
+      <ul class="fresh-left5-">
+        <li>沐浴露</li>
+      </ul>
+     </div>
+     <!-- 中间部分 -->
+     <div class="fresh-center">
+        <ul class="fresh-center1">
+            <li>
+                <p id="mapleville">美宝莲粉饼</p>
+                <p>￥260.00</p>
+               <img src="./images/make_1.jpg" alt="">
+               <p id="mapleville">男士洗发水</p>
+               <p>￥120.00</p>
+            </li>
+            <li>
+                <p id="mapleville">洗衣液</p>
+                <p>￥60.00</p>
+               <img src="./images/make_2.jpg" alt="">
+               <p id="mapleville">美宝莲粉饼</p>
+               <p>￥260.00</p> 
+            </li>
+            <li>
+                <p >洗发水</p>
+                <p >￥160.00</p>
+               <img src="./images/make_3.jpg" alt="">
+               <p id="mapleville">男士设计 &nbsp;洗面奶</p>
+               <p id="yuan">￥90.00</p> 
+            </li>
+        </ul>
+        <ul class="fresh-center2">
+            <li><img src="./images/make_4.jpg" alt=""></li>
+            <li><img src="./images/make_5.jpg" alt=""></li>
+            <li><img src="./images/make_6.jpg" alt=""></li>
+        </ul>
+     </div>
+     <!-- 右边部分 -->
+     <div class="fresh-right">
+        <ul class="fresh-right1">
+            <li><img src="./images/make_b1.jpg" alt=""></li>
+            <li><img src="./images/make_b2.jpg" alt=""></li>
+        </ul>
+     </div>
+    </div>
+     <!-- 单个图片的那一部分 -->
+ <div class="mban_">
+    <img src="./images/mban_2.jpg" alt="">
+ </div>
+ <!-- 3f部分 -->
+ <ul class="fresh-top">
+    <li>3F</li>
+    <li>母婴玩具 </li>
+    <li> <a href="#">营养品 </a></li>
+    <li><a href="#"> 孕妈背带裤 </a></li>
+    <li><a href="#">儿童香玩具</a></li>
+    <li><a href="#">婴儿床 </a></li>
+    <li><a href="#"> 喂奶器</a></li>
+   </ul>
+    <!-- 最大部分 -->
+    <div class="fresh">
+        <!-- 左边部分 -->
+     <div class="fresh-left-">
+      <ul class="fresh-left1-">
+        <li>
+        <img src="./images/baby_r.jpg" alt="">
+       <img src="./images/b_left.png" alt="">
+       <img src="./images/b_right.png" alt="">
+        </li>
+      </ul>
+      <ul class="fresh-left2-">
+        <li>孕妈必备</li>
+        <li>儿童玩具</li>
+      </ul>
+      <ul class="fresh-left3-">
+        <li>重装童鞋</li>
+        <li>辅助食品</li>
+      </ul>
+      <ul class="fresh-left4-">
+        <li>奶粉</li>
+        <li>鲜活禽蛋</li>
+        <li>维生素</li>
+      </ul>
+      <ul class="fresh-left5-">
+        <li>重装童鞋</li>
+        <li>辅助食品</li>
+      </ul>
+     </div>
+     <!-- 中间部分 -->
+     <div class="fresh-center">
+        <ul class="fresh-center1">
+            <li>
+                <p id="mapleville">儿童推车</p>
+                <p>￥560.00</p>
+               <img src="./images/baby_1.jpg" alt="">
+               <p id="mapleville-">纸尿裤</p>
+               <p>￥260.00</p>
+            </li>
+            <li>
+                <p id="mapleville">妈咪纸尿裤</p>
+                <p>￥260.00</p>
+               <img src="./images/baby_2.jpg" alt="">
+               <p id="mapleville">儿童推车</p>
+               <p>￥86.00</p> 
+            </li>
+            <li>
+                <p id="toys">儿童玩具 挖掘机</p>
+                <p>￥160.00</p>
+               <img src="./images/baby_3.jpg" alt="">
+               <p id="mapleville1">挖掘机</p>
+               <p id="yuan1">￥90.00</p> 
+            </li>
+        </ul>
+        <ul class="fresh-center2">
+            <li><img src="./images/baby_4.jpg" alt=""></li>
+            <li><img src="./images/baby_5.jpg" alt=""></li>
+            <li><img src="./images/baby_6.jpg" alt=""></li>
+        </ul>
+     </div>
+     <!-- 右边部分 -->
+     <div class="fresh-right">
+        <ul class="fresh-right1">
+            <li><img src="./images/baby_b1.jpg" alt=""></li>
+            <li><img src="./images/baby_b2.jpg" alt=""></li>
+        </ul>
+     </div>
+    </div>
+    <!-- 底部部分第一部分 -->
+    <ul class="foot">
+        <li><img src="./images/b1.png" alt="">
+            <p>正品保障</p>
+            <p>正品行货 放心购买</p>
+        </li>
+         <li><img src="./images/b2.png" alt="">
+        <p>满包邮</p>
+        <p>满38包邮 免运费</p>
+    </li>
+         <li><img src="./images/b3.png" alt="">
+            <p>天天低价</p>
+            <p>天天低价 畅选无忧</p>
+        </li>
+         <li><img src="./images/b4.png" alt="">
+        <p>准时送达</p>
+        <p>收货时间由你做主</p>
+    </li>
+    </ul>
+    <!-- 底部第二部分 -->
+    <div class="foot1">
+        <!-- 左边部分 -->
+        <div class="foot1-left">
+            <ul class="foot1-left1">
+                <li id="zxcv">新手上路</li>
+                <li>售后流程</li>
+                <li>购物流程</li>
+                <li>订购方式</li>
+                <li>隐私声明</li>
+                <li>推荐分享说明</li>
+            </ul>
+            <ul class="foot1-left2">
+             <li id="zxcv">配送与支付</li>
+             <li>货到付款区域</li>
+             <li>配送支付查询</li>
+             <li>支付方式说明</li> 
+            </ul>
+            <ul class="foot1-left3">
+                <li id="zxcv">会员中心</li>
+                <li>资金管理</li>
+                <li>我的收藏</li>
+                <li>我的订单</li> 
+               </ul>
+               <ul class="foot1-left4">
+                <li id="zxcv">服务保障</li>
+                <li>退货管理</li>
+                <li>售后服务保障</li>
+                <li>产品质量保障</li> 
+               </ul>
+               <ul class="foot1-left5">
+                <li id="zxcv">联系我们</li>
+                <li>网站故障保障</li>
+                <li>购物资讯</li>
+                <li>投诉与建议</li> 
+               </ul>
+        </div>
+        <!-- 右边部分 -->
+        <div class="foot1-right">
+         <ul class="foot1-right1">
+            <li><img src="./images/er.gif" alt=""></li>
+            <li><img src="./images/ss.png" alt=""></li>
+         </ul>
+         <ul class="foot1-right2">
+            <li>新浪微博</li>
+            <li>腾讯微博</li>
+            <li>服务热线</li>
+            <li>400-123-4567</li>
+         </ul>
+        </div>
+    </div>
+    <!-- 底部第三部分 -->
+    <div class="foot3">
+    <p>备案/许可证编号：蜀ICP备12009302号-1-www.dingguagua.com Copyright© 1号店网上超市 2007-2016，All Rights Reserved. 复制必究 , Technical Support: Dgg Group</p>
+    <ul class="foot3-1">
+        <li><img src="./images/b_1.gif" alt=""></li>
+        <li><img src="./images/b_2.gif" alt="">
+        </li>
+        <li>
+            <img src="./images/b_3.gif" alt="">
+        </li>
+        <li><img src="./images/b_4.gif" alt=""></li>
+        <li><img src="./images/b_5.gif" alt=""></li>
+        <li><img src="./images/b_6.gif" alt=""></li>
+    </ul>
+
+    </div>
+</body>
+</html>
+<script src="./yinyong/swiper-bundle.min.js"></script>
+<script src="./js/index.js"></script>

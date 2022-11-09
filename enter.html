@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录页面</title>
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .ul{
+        list-style: none;
+        height: 100px;
+       box-shadow: 5px 5px 5px gray;
+    }
+    li{
+        float: left;
+    }
+    .ul>li:nth-of-type(1)>img{
+        width: 150px;
+        height: 70px;
+    }
+    .ul>li:nth-of-type(1){
+       padding-left: 200px;
+       margin-top: 20px;
+    }
+    .ul>li:nth-of-type(2){
+        margin-left: 800px;
+        margin-top: 10px;
+        font-size: 12px;
+        color: rgb(129, 124, 124);
+    }
+    .ul>li:nth-of-type(2)>input{
+        width: 85px;
+        height: 25px;
+        font-size: 13px;
+        text-indent: 15px;
+       margin-left: 20px;
+       border: 2px solid rgb(186, 182, 182);
+    }
+    .box{
+        width:900px;
+        height: 400px;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto; 
+        margin-top: 50px;
+    }  
+      .box>img{
+        width: 450px;
+        height: 250px;
+    }
+
+  .box1{
+    width: 500px;
+    height: auto;
+  /* padding-right: 400px; */
+  margin-left: 150px;
+  margin-top: 40px;
+  }
+  .box1>p{
+    color: #666666;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .box1>p>a{
+    text-decoration: none;
+    color: rgb(61, 61, 213);
+    font-size: 12px;
+    margin-left: 156px;
+  }
+  .box1>p>a:hover{
+    color: red;
+  }
+  .box1>input:nth-of-type(1){
+    width: 306px;
+    height: 44px;
+    background: url(./images/i_mem.png) no-repeat 8px 8px;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #c5c2c2;
+    text-indent: 5em;
+  }
+  .box1>input:nth-of-type(1)::placeholder{
+    text-indent: 5em;
+   font-size: 15px;
+  }
+  .box1>input:nth-of-type(2){
+    width: 306px;
+    height: 44px;
+    background: url(./images/i_pwd.png) no-repeat 8px 8px;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #c5c2c2;
+    text-indent: 5em;
+  }
+  .box1>input:nth-of-type(2)::placeholder{
+    text-indent: 5em;
+   font-size: 15px;
+  }
+  .box1>span:nth-of-type(1){
+    font-size: 13px;
+    position: absolute;
+    margin-left: 10px;
+  }
+  .box1>span:nth-of-type(2){
+    font-size: 13px;
+    position: absolute;
+    margin-left: 238px;
+  }
+  button{
+    width: 306px;
+    height: 44px;
+    background-color: red;
+    color: #FFFFFF;
+    text-align: center;
+    border: 1px solid red;
+    font-size: 18px;
+  }
+  .box1>p:nth-of-type(2){
+    margin-top: 10px;
+    color:#666666;
+    font-size: 13px;
+  }
+  .img1>li{
+   list-style: none;
+   margin-top: 10px;
+  }
+  .img1>li:nth-of-type(1){
+   width: 30px;
+   height: 30px;
+   background: url(./images/l_1.png) no-repeat;
+  }
+  .img1>li:nth-of-type(1):hover{
+    background: url(./images/l_1_h.png) no-repeat;
+  }
+  .img1>li:nth-of-type(2){
+   width: 30px;
+   height: 30px;
+   background: url(./images/l_2.png) no-repeat;
+   margin-left: 15px;
+  }
+  .img1>li:nth-of-type(2):hover{
+    background: url(./images/l_2_h.png) no-repeat;
+  }
+  .img1>li:nth-of-type(3){
+   width: 30px;
+   height: 30px;
+   background: url(./images/l_3.png) no-repeat;
+   margin-left: 15px;
+  }
+  .img1>li:nth-of-type(3):hover{
+    background: url(./images/l_3_h.png) no-repeat;
+  }
+  .img1>li:nth-of-type(4){
+   width: 30px;
+   height: 30px;
+   background: url(./images/l_4.png) no-repeat;
+   margin-left: 15px;
+  }
+  .img1>li:nth-of-type(4):hover{
+    background: url(./images/l_4_h.png) no-repeat;
+  }
+  .img1>li:nth-of-type(5){
+    width: 120px;
+    font-size: 13px;
+    background: url(./images/turnb.png)no-repeat 82px 2px;
+    margin-left: 40px;
+    margin-top: 15px;
+  }
+ #a{
+    text-align: center;
+    font-size: 12px;
+    color: #979393;
+ }
+ #a>a{
+    text-decoration: none;
+    color: #979393;
+ }
+ #a>a:hover{
+    color: red;
+ }
+ #yi{
+    text-align: center;
+    font-size: 12px;
+    color: #979393;
+ }
+
+    </style>
+</head> 
+<body>
+    <ul class="ul">
+        <li><img src="./images/logo.png" alt=""></li>
+        <li>你好，欢迎光临1好店！<a href="./register.html">请注册</a> <input type="text" value="帮助中心"></li>
+    </ul>
+    <div class="box">
+        <img src="./images/loadimg.jpg" alt="">
+        <div class="box1">
+            <p>1号店用户登录 <a href="">注册账号</a></p>
+           <input type="text" placeholder="邮箱/手机/用户名" id="phone">
+           <br>
+           <input type="text" placeholder="密码" id="pad">
+           <br>
+           <br>
+           <input type="checkbox" id="checkbox"> <span>自动登录</span>
+          <span>忘记密码？</span>
+          <br>
+          <br>
+          <button onclick="fn()">登&nbsp;录</button>
+          <p class="More">更多合作网站账号登录</p>
+        <ul class="img1">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li>更多合作网站 </li>
+    </ul>
+        </div>
+    </div>
+    <p id="a"><a href="">沪ICP备13044278号</a>&nbsp;&nbsp;| 合字B1.B2-20130004 |&nbsp;&nbsp;<a href="">营业执照</a></p>
+    <br>
+    <p id="yi">Copyright © 1号店网上超市 2007-2016，All Rights Reserved</p>
+</body>
+</html>
+<script src="./js/myCookie.js"></script>
+<script>
+ var arr= getCookie('usre')
+ console.log(arr)
+ var arr1=getCookie('password')
+ console.log(arr1)
+  if(getCookie('checkbox__')){
+   document.getElementById('phone').value=getCookie('phone__')
+   document.getElementById('pad').value=getCookie('pad__')
+   document.getElementById('checkbox').checked=getCookie('checkbox__')
+  }
+    function fn(){
+      phone_=document.getElementById('phone').value
+      console.log(phone_)
+       pad_=document.getElementById('pad').value
+      var checkbox_=document.getElementById('checkbox').checked
+      if(checkbox_==true){
+        setCookie('phone__',phone_)
+        setCookie('pad__',pad_)
+        setCookie('checkbox__',checkbox_)
+      }else{
+        removeCookie('phone__')
+        removeCookie('pad__')
+        removeCookie('checkbox__')
+      } 
+      if(phone_==arr&&pad_==arr1){
+        window.location.href='./index.html'
+      }else{
+        alert('登录不成功')
+      }
+    }
+</script>

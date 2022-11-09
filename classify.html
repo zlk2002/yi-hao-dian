@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>珍珠链页面</title>
+</head>
+<link rel="stylesheet" href="./css/classify.css">
+
+<body> 
+    <!-- 顶部部分 -->
+    <div class="box">
+    <ul class=" page">
+    <li>送货至：四川</li>
+    <li>你好!请<a href="./register.html">登录</a></li>
+    <li><a href="./register.html">免费注册</a> |</li>
+    <li><a href="">我的订单</a> |</li>
+    <li><a href="">收藏夹</a></li>
+    <li><a href="">客户服务</a>
+        <ul class="page1">
+       <li>包裹跟踪</li>
+       <li>常见问题</li>
+       <li>在线退款</li>
+       <li>在线投诉</li>
+       <li>配送范围</li>
+    </ul></li>
+    <li><a href="">网站导航<img src="./images/t_arrow.gif" alt=""></a></li>
+    <li>| 关注我们：</li>
+    <li><img src="./images/l_2_h.png" alt=""></li>
+    <li><img src="./images/sh2.png" alt=""></li>
+    <li><a href="">手机版</a></li>
+    <li><img src="./images/s_tel.png" alt=""></li> 
+   </ul>
+   </div>
+    <!-- 第二部分 -->
+    <!-- 右边 -->
+   <div class="two">
+   <a href="./product.html"><img src="./images/logo.png" alt=""></a> 
+    <!-- 中间 -->
+    <div class="two-center">
+    <input type="text" placeholder="请输入关键字"> 
+     <ul class="wate">
+    <li><a href="">咖啡</a></li>
+    <li> <a href="">iphone 6S </a></li>
+    <li> <a href="">新鲜美食</a></li>
+    <li> <a href="">蛋糕</a></li>
+    <li> <a href="">日用品</a></li>
+    <li><a href="">连衣裙</a></li>
+    </ul>
+   </div> 
+   <div class="two-center1"> 
+    <input type="text" value="搜索">
+   </div>
+    <div class="shopping ">
+        <input type="text" value="购物车">
+    </div>
+   </div>
+   
+   <!-- 购物车悬浮后出现的效果 -->
+   <div class="shoppingcart">
+    <!-- 第一 -->
+    <!-- 第一个最上面的 -->
+    <div class="shoppingcart1">
+        <div class="shoppingcart1-1" ><p>
+       1号店满199减100 <span>共<span>1</span>件商品</span></p>
+        </div>
+        <!-- 中间的 -->
+        <div class="shoppingcart1-2">
+            <div class="shoppingcart1-1-img">
+             <img src="./images/shop1.png" alt="">
+            </div>
+            <ul class="treasure">
+                <li>宝贝许愿坊 童装女装套装 <button onclick="close()" id="close"> <img src="./images/a_close.png" alt=""></button></li>
+                <li>深蓝 140码 </li>
+                <li><button onclick="fn()" id="jian1">-</button><span id="yi">1</span><button onclick="fnn()" id="jia1">+</button> <span>￥190</span></li>
+                <!-- <li>参加一项促销，节约成本￥100</li> -->
+            </ul>
+        </div>
+      <div class="shoppingcart1-end">
+        <p>参加一项促销，节约成本￥100</p>
+      </div>
+    </div>
+  
+    <!-- 第二 -->
+    <div class="shoppingcart2">
+
+        <div class="shoppingcart2-1">
+            <p>1号店 <span>共<span>1</span>件商品</span></p>
+        </div>
+
+        <div class="shoppingcart1-2">
+            <div class="shoppingcart1-1-img">
+             <img src="./images/shop2.png" alt="">
+            </div>
+            <ul class="treasure">
+                <li>亨氏 乐维滋清乐2+2果汁 <button onclick="close1()" id="close2"> <img src="./images/a_close.png" alt=""></button></li>
+                <li>草莓山楂枸杞 </li>
+                <li>
+                    <button onclick="fu()" id="jian2">-</button>
+                    <span id="yi1">1</span>
+                    <button onclick="fuu()" id="jia2">+</button> <span>￥5.8</span></li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- 第三 -->
+    <div class="shoppingcart3">
+
+        <div class="shoppingcart2-1">
+            <p>珠韵首饰旗舰店  <span>共<span>1</span>件商品</span></p>
+        </div>
+
+        <div class="shoppingcart1-2">
+            <div class="shoppingcart1-1-img">
+             <img src="./images/shop3.png" alt="">
+            </div>
+
+            <ul class="treasure">
+                
+                <li>珠韵首饰 大粒径 9.55mm<button onclick="close2()" id="close3"> <img src="./images/a_close.png" alt=""></button></li>
+                <li>淡水白色近圆珍珠 </li>
+
+                <li><button onclick="fm()" id="jian3">-</button><span id="yi2">1</span><button onclick="fmm()" id="jia3">+</button> <span>￥758</span></li>
+                <!-- <li>参加一项促销，节约成本￥100</li> -->
+            </ul>
+
+        </div>
+        <div class="shoppingcart1-end">
+            <p>全场包邮</p>
+          </div>
+    </div>
+    <!-- 第四 -->
+    <div class="shoppingcart4">
+       <p>意见反馈</p>
+       <div class="shoppingcart4-end">
+        <button onclick="enb()" id="">合计
+         <span>￥953.8</span>
+        </button> 
+        <button onclick="end1()" id="end1">
+            立即结算 <span>(3)</span>
+        </button>
+       </div>
+    </div>
+   </div>
+    <ul class="heander">
+        <li>全部商品分类</li>
+        <li>首页</li>
+        <li>自营超市</li>
+        <li>1号店</li>
+        <li>1号超市</li>
+        <li>女装</li>
+        <li>美妆</li>
+        <li>1号海购</li>
+        <li> 团购</li>
+        <li>手机下单惊喜!</li>
+    </ul>
+    <!--  -->
+   <ul class="heander1">
+    <li>全部 ></li>
+    <li>珠宝饰品 > </li>
+    <li>珍珠项链 ></li>
+    <li>  <em>品牌： <span>珠韵首饰</span></em> </li>
+   </ul>
+   <!-- 搜索框下面边框部分 -->
+   <div class="classification">
+    <!-- 第一部分 -->
+   <ul class="classification1">
+    <li>  品牌：</li>
+    <li>珠韵首饰/ZHUYUN JEWELLERY</li>
+    <li> 施华洛世奇/Swarovski</li>
+    <li>海瞳</li>
+    <li>周大福/CHOW TAI FOOK</li>
+    <li>京润珍珠 </li>
+    <li> 佰色传情 /BRI.R</li>
+    <li>迈姿/Maizi</li>
+    <li> Ginasy Jewelry </li>
+    <li>心鑫圆</li>
+    <li>银斯妮/yin si ni silver </li>
+    <li> 迈姿/Maizi</li>
+    <li>Ginasy Jewelry </li>
+    <li>蛟蓓</li>
+    <li>芭比/Barbie</li>
+    <li>珍福祥</li>
+    <li>珍福祥</li>
+   </ul>
+   <!-- 第二部分 -->
+   <ul class="classification2">
+    <li>价格：</li>
+    <li>0-199</li>
+    <li> 200-399</li>
+    <li> 400-599</li>
+    <li>600-899</li>
+    <li>900-1299</li>
+    <li>1300-1399</li>
+    <li>1400以上</li>
+   </ul>
+   <!-- 第三部分 -->
+   <ul class="classification3">
+    <li>珍珠颜色：</li>
+    <li>混彩</li>
+    <li>黑色系</li>
+    <li>粉色系 </li>
+    <li>白色系</li>
+    <li>金色系 </li>
+    <li> 紫色系</li>
+   </ul>
+   <!-- 第四部分 -->
+   <ul class="classification4">
+    <li>珍珠分类：</li>
+    <li>天然海水珍珠</li>
+    <li>养殖海水珍珠</li>
+    <li>养殖淡水珍珠</li>
+    <li>天然淡水珍珠</li>
+   </ul>
+   </div>
+   <!-- 最大三大部分 -->
+   <div class="maximal ">
+    <!-- 左边的部分 -->
+    <ul class="maximal-left">
+     <li id="max11">浏览历史<span>清空</span> </li>
+   <li><img src="./images/his_1.jpg" alt="">
+      <p>Dior/迪奥香水2件套装</p>
+      <p>￥368.00</p>
+</li>
+   <li><img src="./images/his_2.jpg" alt="">
+    <p>Dior/迪奥香水2件套装</p>
+    <p>￥768.00</p></li>
+   <li><img src="./images/his_3.jpg" alt="">
+    <p>Dior/迪奥香水2件套装</p>
+    <p>￥680.00</p></li>
+   <li><img src="./images/his_4.jpg" alt="">
+    <p>Dior/迪奥香水2件套装</p>
+    <p>￥680.00</p></li>
+    <li><img src="./images/his_5.jpg" alt="">
+        <p>Dior/迪奥香水2件套装</p>
+        <p>￥680.00</p></li>
+    </ul>
+    <!-- 右边的部分 -->
+    <div class="maximal-right">
+        <div class="p1"></div>
+        <p>
+            <span>默认 </span>
+            <span>销量<img src="./images/i_down.gif" alt=""></span>
+            <span>价格<img src="./images/i_down.gif" alt=""></span>
+            <span>新品</span>
+            <span>共发现120件</span>
+        </p>
+        <div class="p2">
+            <ul class="maximal-right1">
+            <li>
+                <img src="./images/per_1.jpg" alt="">
+                <p>￥198.00</p>
+                <p>海瞳7-8mm水滴形天然珍珠项链</p>
+                <p><span>收藏</span> <span id="peculiar" class="box5">加入购物车</span></p>
+            </li>
+            <li>
+                <img src="./images/per_2.jpg" alt="">
+                <p>￥1980.00</p>
+                <p>海瞳 明星款 玛瑙天然淡水珍珠</p>
+                <p><span>收藏</span> <span id="peculiar" class="box5">加入购物车</span></p>
+            </li>
+            <li>
+                <img src="./images/per_3.jpg" alt="">
+                <p>￥670.00</p>
+                <p>小清新8.5-10.5mm珍珠吊坠项链
+                </p>
+                <p><span>收藏</span> <span id="peculiar" class="box5">加入购物车</span></p>
+            </li>
+            <li>
+                <img src="./images/per_4.jpg" alt="">
+                <p>￥618.00</p>
+                <p>无暇品质(925银玫瑰花型银扣)
+                </p>
+                <p><span>收藏</span> <span id="peculiar" class="box5">加入购物车</span></p>
+            </li>
+            <li>
+                <img src="./images/per_5.jpg" alt="">
+                <p>￥198.00</p>
+                <p>超强光珍珠吊坠项链
+                </p>
+                <p><span>收藏</span> <span id="peculiar" class="box5"> 加入购物车</span></p>
+            </li>
+        </ul>
+        <!-- 第二 -->
+        <ul class="maximal-right2">
+                <li>
+                    <img src="./images/per_2.jpg" alt="">
+                    <p>￥598.00</p>
+                    <p>佰色传情淡水珍珠项链圆8-9mm</p>
+                    <p><span>收藏</span> <span id="peculiar" class="box5">加入购物车</span></p>
+                </li>
+                <li>
+                    <img src="./images/per_6.jpg" alt="">
+                    <p>￥198.00</p>
+                    <p>佰色传情淡水珍珠项链</p>
+                    <p><span>收藏</span> <span id="peculiar" class="box5">加入购物车</span></p>
+                </li>
+                <li>
+                    <img src="./images/per_8.jpg" alt="">
+                    <p>￥198.00</p>
+                    <p>珍珠吊坠925银镀金 淡水珍珠项</p>
+                    <p><span>收藏</span> <span id="peculiar" class="box5">加入购物车</span></p>
+                </li>
+                <li>
+                    <img src="./images/per_9.jpg" alt="">
+                    <p>￥260.00</p>
+                    <p>小清新8.5-10.5mm珍珠吊坠项链</p>
+                    <p><span>收藏</span> <span id="peculiar" class="box5">加入购物车</span></p>
+                </li>
+                <li>
+                    <img src="./images/per_10.jpg" alt="">
+                    <p>￥865.00</p>
+                    <p>节节高升花生款(玫瑰色款)</p>
+                    <p><span>收藏</span> <span id="peculiar" class="box5">加入购物车</span></p>
+                </li>
+        </ul>
+        <!-- 第三 -->
+        <ul class="maximal-right3">
+            <li>
+                <img src="./images/per_11.jpg" alt="">
+                <p>￥440.00</p>
+                <p>京润 【魅惑】海水珍珠项链</p>
+                <p><span>收藏</span> <span id="peculiar" class="box5"> 加入购物车</span></p>
+            </li>
+            <li>
+                <img src="./images/per_12.jpg" alt="">
+                <p>￥390.00</p>
+                <p>7-8mm米形珍珠 加长型</p>
+                <p><span>收藏</span> <span id="peculiar" class="box5">加入购物车</span></p>
+            </li>
+            <li>
+                <img src="./images/per_13.jpg" alt="">
+                <p>￥5198.00</p>
+                <p>海瞳 罕见7-8mm高亮泽 表皮光</p>
+                <p><span>收藏</span> <span id="peculiar" class="box5">加入购物车</span></p>
+            </li>
+            <li>
+                <img src="./images/per_14.jpg" alt="">
+                <p>￥198.00</p>
+                <p>海瞳 淡水珍珠项链锁骨链</p>
+                <p><span>收藏</span> <span id="peculiar" class="box5">加入购物车</span></p>
+            </li>
+            <li>
+                <img src="./images/per_15.jpg" alt="">
+                <p>￥198.00</p>
+                <p>佰色传情 编织款珍珠项链</p>
+                <p><span>收藏</span> <span id="peculiar" class="box5">加入购物车</span></p>
+            </li>
+        </ul>
+        <!--第四 -->
+        <ul class="maximal-right4">
+            <li>
+                <img src="./images/per_16.jpg" alt="">
+                <p>￥680.00</p>
+                <p>心鑫圆 天然珍珠项链淡水套装</p>
+                <p><span>收藏</span> <span id="peculiar" class="box5">加入购物车</span></p>
+            </li>
+            <li>
+                <img src="./images/per_17.jpg" alt="">
+                <p>￥2980.00</p>
+                <p>珠韵首饰 多色可选(白色)</p>
+                <p><span>收藏</span> <span id="peculiar" class="box5">加入购物车</span></p>
+            </li>
+            <li>
+                <img src="./images/per_18.jpg" alt="">
+                <p>￥212.00</p>
+                <p>媲美海水珠 天然浅粉金色珍珠项</p>
+                <p><span>收藏</span> <span id="peculiar" class="box5">加入购物车</span></p>
+            </li>
+            <li>
+                <img src="./images/per_19.jpg" alt="">
+                <p>￥698.00</p>
+                <p>海瞳 淡水珍珠吊坠</p>
+                <p><span>收藏</span> <span id="peculiar" class="box5">加入购物车</span></p>
+            </li>
+            <li>
+                <img src="./images/per_12.jpg" alt="">
+                <p>￥2198.00</p>
+                <p>珠圆玉润 送爱人</p>
+                <p><span>收藏</span> <span id="peculiar" class="box5">加入购物车</span></p>
+            </li>
+        </ul>
+    </div>
+    </div>
+   </div>
+   <div class="slide">
+    <span>上一页</span>
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+    <span>...</span>
+    <span>20</span>
+    <span>下一页</span>
+   </div>
+   <ul class="foot">
+    <li><img src="./images/b1.png" alt="">
+        <p>正品保障</p>
+        <p>正品行货 放心购买</p>
+    </li>
+     <li><img src="./images/b2.png" alt="">
+    <p>满包邮</p>
+    <p>满38包邮 免运费</p>
+</li>
+     <li><img src="./images/b3.png" alt="">
+        <p>天天低价</p>
+        <p>天天低价 畅选无忧</p>
+    </li>
+     <li><img src="./images/b4.png" alt="">
+    <p>准时送达</p>
+    <p>收货时间由你做主</p>
+</li>
+</ul>
+<!-- 底部第二部分 -->
+<div class="foot1">
+    <!-- 左边部分 -->
+    <div class="foot1-left">
+        <ul class="foot1-left1">
+            <li id="zxcv">新手上路</li>
+            <li>售后流程</li>
+            <li>购物流程</li>
+            <li>订购方式</li>
+            <li>隐私声明</li>
+            <li>推荐分享说明</li>
+        </ul>
+        <ul class="foot1-left2">
+         <li id="zxcv">配送与支付</li>
+         <li>货到付款区域</li>
+         <li>配送支付查询</li>
+         <li>支付方式说明</li> 
+        </ul>
+        <ul class="foot1-left3">
+            <li id="zxcv">会员中心</li>
+            <li>资金管理</li>
+            <li>我的收藏</li>
+            <li>我的订单</li> 
+           </ul>
+           <ul class="foot1-left4">
+            <li id="zxcv">服务保障</li>
+            <li>退货管理</li>
+            <li>售后服务保障</li>
+            <li>产品质量保障</li> 
+           </ul>
+           <ul class="foot1-left5">
+            <li id="zxcv">联系我们</li>
+            <li>网站故障保障</li>
+            <li>购物资讯</li>
+            <li>投诉与建议</li> 
+           </ul>
+    </div>
+    <!-- 右边部分 -->
+    <div class="foot1-right">
+     <ul class="foot1-right1">
+        <li><img src="./images/er.gif" alt=""></li>
+        <li><img src="./images/ss.png" alt=""></li>
+     </ul>
+     <ul class="foot1-right2">
+        <li>新浪微博</li>
+        <li>腾讯微博</li>
+        <li>服务热线</li>
+        <li>400-123-4567</li>
+     </ul>
+    </div>
+</div>
+<!-- 底部第三部分 -->
+<div class="foot3">
+<p>备案/许可证编号：蜀ICP备12009302号-1-www.dingguagua.com Copyright© 1号店网上超市 2007-2016，All Rights Reserved. 复制必究 , Technical Support: Dgg Group</p>
+<ul class="foot3-1">
+    <li><img src="./images/b_1.gif" alt=""></li>
+    <li><img src="./images/b_2.gif" alt="">
+    </li>
+    <li>
+        <img src="./images/b_3.gif" alt="">
+    </li>
+    <li><img src="./images/b_4.gif" alt=""></li>
+    <li><img src="./images/b_5.gif" alt=""></li>
+    <li><img src="./images/b_6.gif" alt=""></li>
+</ul>
+
+</div>
+</body>
+</html>
+<script src="./js/classify.js"></script>
